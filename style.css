@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+  font-family: 'Overpass', sans-serif;
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+
+}
+
+label {
+  background-color: rgb(37, 48, 55);
+  padding: 1rem 1.5rem;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer
+}
+
+label:hover {
+  background-color: rgb(249, 119, 18);
+}
+
+
+:checked+label {
+  background-color: rgb(124, 137, 151);
+}
+
+.rounded-pill:hover {
+  background-color: whitesmoke !important;
+  color: orange !important;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.box {
+  max-width: 25rem;
+}
+
+.star{
+  background-color: rgb(51, 60, 68)
+}
+
+.rounded-pill{
+background-color: hsl(25, 97%, 53%);
+}
+
+#final{
+display: none;
+}
+
+@media (max-width:300px){
+  :root {
+  
+    font-size: 3.5vw;
+  }
